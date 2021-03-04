@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GLWalkthrough_Example' do
+  pod 'GLWalkthrough', :path => '../'
+
+  target 'GLWalkthrough_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
