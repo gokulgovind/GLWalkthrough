@@ -1,0 +1,22 @@
+{
+  "name": "GLWalkthrough",
+  "version": "0.1.0",
+  "summary": "A short description of GLWalkthrough.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gokulgovind/GLWalkthrough",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gokulgovind": "gokul.g@payoda.com"
+  },
+  "source": {
+    "git": "https://github.com/gokulgovind/GLWalkthrough.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GLWalkthrough/Classes/**/*"
+}

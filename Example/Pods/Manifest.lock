@@ -1,0 +1,16 @@
+PODS:
+  - GLWalkthrough (0.1.0)
+
+DEPENDENCIES:
+  - GLWalkthrough (from `../`)
+
+EXTERNAL SOURCES:
+  GLWalkthrough:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GLWalkthrough: eb64b13d8170b470df693f0284d81e94fe9fe200
+
+PODFILE CHECKSUM: 6d2303fd7996f4861b60bcf11c49051e82a40304
+
+COCOAPODS: 1.10.0

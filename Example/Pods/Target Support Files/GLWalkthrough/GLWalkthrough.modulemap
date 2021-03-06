@@ -1,0 +1,6 @@
+framework module GLWalkthrough {
+  umbrella header "GLWalkthrough-umbrella.h"
+
+  export *
+  module * { export * }
+}
