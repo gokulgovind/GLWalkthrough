@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'GLWalkthrough/**/*'
+  s.source_files = 'GLWalkthrough/Classes/**/*'
   
   # s.resource_bundles = {
   #   'GLWalkthrough' => ['GLWalkthrough/Assets/*.png']

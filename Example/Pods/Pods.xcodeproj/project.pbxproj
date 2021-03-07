@@ -115,9 +115,7 @@
 		31E965990562CB656D24896CDC55D577 /* GLWalkthrough */ = {
 			isa = PBXGroup;
 			children = (
-				B167515925F1EE30002B6250 /* GLWalkThrough.swift */,
-				B167515A25F1EE30002B6250 /* GLWalkThroughContentView.swift */,
-				B167515B25F1EE30002B6250 /* GLWalkThroughContentView.xib */,
+				B128C02525F517820062DB97 /* Classes */,
 				7B7D6FD6BA61DA40E957167A7C1078C1 /* Pod */,
 				900C88BFA7A58D5694BC0789E1E01BB8 /* Support Files */,
 			);
@@ -181,6 +179,16 @@
 			);
 			name = "Pods-GLWalkthrough_Tests";
 			path = "Target Support Files/Pods-GLWalkthrough_Tests";
+			sourceTree = "<group>";
+		};
+		B128C02525F517820062DB97 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B167515925F1EE30002B6250 /* GLWalkThrough.swift */,
+				B167515A25F1EE30002B6250 /* GLWalkThroughContentView.swift */,
+				B167515B25F1EE30002B6250 /* GLWalkThroughContentView.xib */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		C71B71E701DD2E32FAA1214FE8B9B6C2 /* Products */ = {
