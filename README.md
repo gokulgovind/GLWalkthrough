@@ -20,9 +20,9 @@ it, simply add the following line to your Podfile:
 pod 'GLWalkthrough'
 ```
 ### Preview
-![overView](Design/screen_shot_bottom.png)
-<img src="Design/screen_shot_center.png" width=380> 
-<img src="Design/screen_shot_top.png" width=380> 
+![overView](Designs/screen_shot_bottom.png)
+<img src="Designs/screen_shot_center.png" width=380> 
+<img src="Designs/screen_shot_top.png" width=380> 
 
 ### Public Attribute
 |  Attribute name    |  Specific introduction of attributes |
