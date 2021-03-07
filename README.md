@@ -19,10 +19,26 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'GLWalkthrough'
 ```
+### Preview
+<img src="Design/screen_shot_bottom.png" width=380> 
+<img src="Design/screen_shot_center.png" width=380> 
+<img src="Design/screen_shot_top.png" width=380> 
+
+### Public Attribute
+|  Attribute name    |  Specific introduction of attributes |
+| :------------: | :------------: | 
+| `title` | titile to be shown on each object |
+| `subtitle` | subtitle to be shown on each object |
+| `nextBtnTitle` | button title for next button. (default text is "Next") |
+| `isSkipEnabled` | bool to enable/disable skip button (applies to each individual object) |
+| `position` | specify the position of object to be highlighted (like bottomLeft, bottomCenter, topRight) |
+| `frameOverWindow` | CGRect of object to be highlighted |
+
+
 
 ## Author
 
-gokulgovind, gokul.g@payoda.com
+gokulgovind, gokulece26@gmail.com
 
 ## License
 

@@ -227,9 +227,8 @@ public struct GLWalkThroughConfig {
     public var nextBtnTitle:String = "Next"
     public var isSkipEnabled:Bool = true
     public var tapToNext:Bool = true
-    public var isNextEnabled:Bool = true
     public var position:GLPosition = .bottomLeft
-    public var isInBottom:Bool {
+    var isInBottom:Bool {
         return position == .bottomCenter || position == .bottomLeft || position == .bottomRight
     }
     
