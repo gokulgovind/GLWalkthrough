@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'GLWalkthrough'
 ```
 ### Preview
-![overView](Designs/screen_shot_bottom.png)
+<img src="Designs/screen_shot_bottom.png" width=380> 
 <img src="Designs/screen_shot_center.png" width=380> 
 <img src="Designs/screen_shot_top.png" width=380> 
 
