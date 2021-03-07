@@ -15,9 +15,9 @@
 		89C8127AB8646640D9F19A0FB378639F /* Pods-GLWalkthrough_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB560530E2FE389BD46A94E87B441DC6 /* Pods-GLWalkthrough_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BF57718AE0E73DF683F188A062417A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9E511C7BA96C157089863BD527B71ED4 /* Pods-GLWalkthrough_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B18004AEBEB07F9459E117156C7578 /* Pods-GLWalkthrough_Example-dummy.m */; };
-		B167515C25F1EE30002B6250 /* GLWalkThrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167515925F1EE30002B6250 /* GLWalkThrough.swift */; };
-		B167515D25F1EE30002B6250 /* GLWalkThroughContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167515A25F1EE30002B6250 /* GLWalkThroughContentView.swift */; };
-		B167515E25F1EE30002B6250 /* GLWalkThroughContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B167515B25F1EE30002B6250 /* GLWalkThroughContentView.xib */; };
+		B128C03125F532720062DB97 /* GLWalkThrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = B128C03025F532720062DB97 /* GLWalkThrough.swift */; };
+		B128C03725F532820062DB97 /* GLWalkThroughContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B128C03525F532820062DB97 /* GLWalkThroughContentView.xib */; };
+		B128C03825F532820062DB97 /* GLWalkThroughContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B128C03625F532820062DB97 /* GLWalkThroughContentView.swift */; };
 		CD01108E82D819AE93B56757A068BFC4 /* GLWalkthrough-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC2F055A54EDA0E56F57E8C8B1DA7A1C /* GLWalkthrough-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -63,9 +63,9 @@
 		A948FE83587698799C3F24582FDE4E13 /* Pods_GLWalkthrough_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GLWalkthrough_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB560530E2FE389BD46A94E87B441DC6 /* Pods-GLWalkthrough_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GLWalkthrough_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AC2F055A54EDA0E56F57E8C8B1DA7A1C /* GLWalkthrough-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLWalkthrough-umbrella.h"; sourceTree = "<group>"; };
-		B167515925F1EE30002B6250 /* GLWalkThrough.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLWalkThrough.swift; sourceTree = "<group>"; };
-		B167515A25F1EE30002B6250 /* GLWalkThroughContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLWalkThroughContentView.swift; sourceTree = "<group>"; };
-		B167515B25F1EE30002B6250 /* GLWalkThroughContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLWalkThroughContentView.xib; sourceTree = "<group>"; };
+		B128C03025F532720062DB97 /* GLWalkThrough.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GLWalkThrough.swift; path = ../GLWalkthrough/Classes/GLWalkThrough.swift; sourceTree = "<group>"; };
+		B128C03525F532820062DB97 /* GLWalkThroughContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GLWalkThroughContentView.xib; path = ../GLWalkthrough/Classes/GLWalkThroughContentView.xib; sourceTree = "<group>"; };
+		B128C03625F532820062DB97 /* GLWalkThroughContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GLWalkThroughContentView.swift; path = ../GLWalkthrough/Classes/GLWalkThroughContentView.swift; sourceTree = "<group>"; };
 		B9CA3DE6202E721B851A63895B455EF7 /* GLWalkthrough.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLWalkthrough.debug.xcconfig; sourceTree = "<group>"; };
 		BA1B212B1F7C4A47EC96FDEDC9F58F96 /* GLWalkthrough.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GLWalkthrough.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57C08CE8EEDCCE0D3E6D6AA1AE1DECB /* GLWalkthrough.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GLWalkthrough.modulemap; sourceTree = "<group>"; };
@@ -184,9 +184,9 @@
 		B128C02525F517820062DB97 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B167515925F1EE30002B6250 /* GLWalkThrough.swift */,
-				B167515A25F1EE30002B6250 /* GLWalkThroughContentView.swift */,
-				B167515B25F1EE30002B6250 /* GLWalkThroughContentView.xib */,
+				B128C03625F532820062DB97 /* GLWalkThroughContentView.swift */,
+				B128C03525F532820062DB97 /* GLWalkThroughContentView.xib */,
+				B128C03025F532720062DB97 /* GLWalkThrough.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -371,7 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B167515E25F1EE30002B6250 /* GLWalkThroughContentView.xib in Resources */,
+				B128C03725F532820062DB97 /* GLWalkThroughContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,9 +382,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B128C03825F532820062DB97 /* GLWalkThroughContentView.swift in Sources */,
 				40E1C495FEE74B850E2D34A93BFA8963 /* GLWalkthrough-dummy.m in Sources */,
-				B167515C25F1EE30002B6250 /* GLWalkThrough.swift in Sources */,
-				B167515D25F1EE30002B6250 /* GLWalkThroughContentView.swift in Sources */,
+				B128C03125F532720062DB97 /* GLWalkThrough.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
