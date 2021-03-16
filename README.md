@@ -22,13 +22,13 @@ pod 'GLWalkthrough'
 ### Preview
 <div class="row">
   <div class="column">
-    <img src="Designs/screen_shot_bottom.png" alt="Bottom" style="width:100%">
+    <img src="Designs/screen_shot_bottom.png" alt="Bottom" style="width:30%">
   </div>
   <div class="column">
-    <img src="Designs/screen_shot_center.png" alt="Center" style="width:100%">
+    <img src="Designs/screen_shot_center.png" alt="Center" style="width:30%">
   </div>
   <div class="column">
-    <img src="Designs/screen_shot_top.png" alt="Top" style="width:100%">
+    <img src="Designs/screen_shot_top.png" alt="Top" style="width:30%">
   </div>
 </div>
 
