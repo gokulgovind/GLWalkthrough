@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GLWalkthrough'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'GLWalkthrough helps users to add walk through or coach marker functionality to their application'
   s.swift_version = '4.0'
 
