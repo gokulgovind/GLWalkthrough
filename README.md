@@ -20,19 +20,46 @@ it, simply add the following line to your Podfile:
 pod 'GLWalkthrough'
 ```
 ### Preview
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
 <div class="row">
   <div class="column">
-    <img src="Designs/screen_shot_bottom.png" alt="Bottom" style="width:30%">
+    <img src="Designs/screen_shot_bottom.png" alt="Snow" style="width:100%">
   </div>
   <div class="column">
-    <img src="Designs/screen_shot_center.png" alt="Center" style="width:30%">
+    <img src="img_forest.jpg" alt="Forest" style="width:100%">
   </div>
   <div class="column">
-    <img src="Designs/screen_shot_top.png" alt="Top" style="width:30%">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
   </div>
 </div>
 
-
+</body>
+</html>
 
 ### Public Attribute
 |  Attribute name    |  Specific introduction of attributes |
