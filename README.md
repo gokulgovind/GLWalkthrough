@@ -20,9 +20,19 @@ it, simply add the following line to your Podfile:
 pod 'GLWalkthrough'
 ```
 ### Preview
-<img src="Designs/screen_shot_bottom.png" width=380> 
-<img src="Designs/screen_shot_center.png" width=380> 
-<img src="Designs/screen_shot_top.png" width=380> 
+<div class="row">
+  <div class="column">
+    <img src="Designs/screen_shot_bottom.png" alt="Bottom" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Designs/screen_shot_center.png" alt="Center" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Designs/screen_shot_top.png" alt="Top" style="width:100%">
+  </div>
+</div>
+
+
 
 ### Public Attribute
 |  Attribute name    |  Specific introduction of attributes |
